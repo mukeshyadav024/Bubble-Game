@@ -26,7 +26,7 @@ function runTimer() {
     } else {
       clearInterval(time);
       document.querySelector(".content").innerHTML = `<h1> GAME OVER </h1> `;
-      document.querySelector(".content").innerHTML = `<img src='play.svg'></img> `;
+      document.querySelector(".content").innerHTML += `<img src='play.svg'></img> `;
 
       document.querySelector(".newhit").textContent = "--";
     }
